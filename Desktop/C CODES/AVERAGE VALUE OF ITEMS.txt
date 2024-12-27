@@ -1,0 +1,17 @@
+#include<stdio.h>
+ int main() {
+      float weight1 , weight2, average  ;
+      int n1 , n2;
+      printf("ENTER THE WEIGHT OF ITEM 1 : " );
+      scanf("%f" , &weight1);
+      printf("ENTER THE WEIGHT OF ITEM 2 : ");
+      scanf("%f" , &weight2);
+      printf("ENTER THE NUMBER OF PURCHASES OF ITEM 1 :");
+      scanf("%d", &n1);
+      printf("ENTER THE NUMBER OF PURCHASES OF ITEM 2 :");
+      scanf("%d" , &n2);
+      average = (weight1 + weight2)/(n1 + n2);
+      printf( "THE AVERAGE VALUE IS  :%f \n " , average);
+      return 0;
+      
+    }
